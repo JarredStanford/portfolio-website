@@ -3761,6 +3761,15 @@ body.is-preload #header.alt .logo {
   align-items: center;
 }
 
+#footer h2 {
+  color: white;
+}
+
+#footer form {
+  width: 75%;
+  color: white;
+}
+
 #footer > * {
   width: calc(100% - 2em);
   margin-left: 2em;

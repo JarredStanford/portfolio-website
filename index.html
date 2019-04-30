@@ -108,15 +108,21 @@
       <!-- Footer -->
       <footer id="footer">
         <section>
-          <h2>Contact</h2>
-          <dl class="alt">
-            <dt>Address</dt>
-            <dd>204 Forest St &bull; Montclair, NJ 07042 &bull; USA</dd>
-            <dt>Phone</dt>
-            <dd>(973) 330-1652</dd>
-            <dt>Email</dt>
-            <dd><a href="stanj89@gmail.com">stanj89@gmail.com</a></dd>
-          </dl>
+            <h2>Contact</h2>  
+            <form id="contact" action="mail.php" method="POST">
+              <fieldset>
+                <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" value="Send" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
           <ul class="icons">
             <li>
               <a href="#" class="icon fa-twitter alt"

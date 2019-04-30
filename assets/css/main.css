@@ -2243,6 +2243,11 @@ input, select, textarea {
 			cursor: default;
 		}
 
+		.icon.major img {
+			max-width: 40%;
+			border-radius: 25%;
+		}
+
 			.icon.major:before {
 				display: inline-block;
 				font-size: 6.25rem;
@@ -2268,26 +2273,6 @@ input, select, textarea {
 				text-align: center;
 				line-height: 2em;
 			}
-
-		.icon.style1 {
-			color: #efa8b0;
-		}
-
-		.icon.style2 {
-			color: #c79cc8;
-		}
-
-		.icon.style3 {
-			color: #a89cc8;
-		}
-
-		.icon.style4 {
-			color: #9bb2e1;
-		}
-
-		.icon.style5 {
-			color: #8cc9f0;
-		}
 
 		@media screen and (max-width: 1680px) {
 
